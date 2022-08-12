@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="js/index.js" defer></script>
+
+    <title>Challenge Encriptador </title>
+
+</head>
+
+<body>
+
+    <div>
+        <img src="img/logoAlura.svg" alt="Logo Alura" class="logoAlura">
+    </div>
+
+    <div>
+        <div class="inputContainer">
+            <div>
+                <textarea name="textBox" id="textBox" cols="30" rows="8" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+
+            <div class="btnContainer ">
+
+                <div class="textoInformativo">
+                    <img src="img/ExclamationMark.png" class="inlineClass" alt="Atención">
+                    <p class="txtInfoTxt inlineClass">Solo letras minúsculas y sin acentos.</p>
+                </div>
+
+                <div>
+                    <button class="buttons btnGrayColor btnEncriptar">Encriptar</button>
+                    <button class="buttons btnGrayColor btnDesencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="textoEncriptadoContainer">
+
+            <p class="textoEncriptado"></p>
+            <img src="img/imagenSinMensaje.png" alt="Ningun mensaje fue encontrado" class="imagenSinMensaje">
+            <p class="mensaje1 textoCentrado">Ningún mensaje fue encontrado</p>
+            <p class="mensaje2 textoCentrado">Ingresa el texto que desees encriptar o desencriptar</p>
+            <button class="buttons btnCopiar">Copiar</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+<footer>
+    <h1>Rodrigo K - Oracle.One G2 </h1>
+</footer>
+
+</html>

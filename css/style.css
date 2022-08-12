@@ -1,0 +1,157 @@
+/*
+    font-family: 'Inter', sans-serif;         
+*/
+
+body {
+    background: #EFF1FA;
+}
+
+.logoAlura {
+    margin-left: 84px;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inputContainer {
+    display: inline-block;
+}
+
+#textBox {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    color: darkblue;
+    background: #EFF1FA;
+    font-size: 32px;
+    border-style: none;
+    border-color: Transparent;
+    resize: none;
+    outline: none;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 277px;
+    word-wrap: break-word;
+}
+
+.textoEncriptadoContainer {
+    display: inline-block;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    vertical-align: top;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    right: 50px;
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.textoEncriptado {
+    display: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    word-wrap: break-word;
+}
+
+.imagenSinMensaje {
+    display: block;
+    position: absolute;
+    top: 25%;
+    margin: auto;
+    width: 80%;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    margin: 0 auto;
+    font-size: small;
+    margin-left: 30%;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.mensaje1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px;
+    position: absolute;
+    bottom: 20%;
+}
+
+.mensaje2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 10px;
+    position: absolute;
+    bottom: 10%;
+}
+
+.btnContainer {
+    display: block;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 50px;
+}
+
+.buttons {
+    display: inline-block;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border-color: #0A3871;
+    transition: all 0.1s ease-out;
+}
+
+.btnCopiar {
+    display: none;
+    position: absolute;
+    width: 90%;
+    bottom: 10px;
+    margin: 0 5%;
+    background-color: White;
+}
+
+.btnGrayColor {
+    background-color: #D8DFE8;
+    margin-left: 25px;
+}
+
+.buttons:hover {
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.buttons:active {
+    background-color: #2396e3;
+    color: white;
+}
+
+.inlineClass {
+    display: inline-block;
+}
+
+.textoInformativo {
+    margin-left: 5%;
+}
+
+.txtInfoTxt {
+    margin-left: 5px;
+    vertical-align: middle;
+    padding-bottom: 7px;
+}
