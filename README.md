@@ -1,6 +1,6 @@
 # Encriptador
 
-link al proyecto: https://rodrigomk7.github.io/encriptador/
+Link al proyecto: https://rodrigomk7.github.io/encriptador/
 
 Capturas de su funcionamiento:
 
